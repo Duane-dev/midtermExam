@@ -13,7 +13,7 @@ class CalcuController extends Controller
     	return $result;
     }
 
-    public function VolumeOfCubold($n1,$n2,$n3){
+    public function VolumeOfCuboid($n1,$n2,$n3){
 
         $result = $n1 *  $n2 * $n3;
     	return $result;
@@ -24,5 +24,5 @@ class CalcuController extends Controller
         $result = $n1 **2;
     	return $result;
     }
-  
+
 }

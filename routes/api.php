@@ -20,6 +20,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/por/{n1}/{n2}',[CalcuController::class,'PerimeterOfRectangle']);
-Route::get('/voc/{n1}/{n2}/{n3}',[CalcuController::class,'VolumeOfCubold']);
+Route::get('/voc/{n1}/{n2}/{n3}',[CalcuController::class,'VolumeOfCuboid']);
 Route::get('/sq/{n1}',[CalcuController::class,'AreaOfSquare']);
 Route::get('/cl/{n1}/{op}/{n2}',[CalcuController::class,'calcu']);
